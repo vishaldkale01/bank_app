@@ -25,7 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "backend": "cd backend  && json-server --watch --port=5000 server.js",
+    "backend": "cd backend  && json-server --watch --port=5000 ",
     "frontend": "npm start",
     "dev": "concurrently \"cd backend  && node server\"  \"npm start\""
   },
