@@ -1,0 +1,25 @@
+{
+  "name": "banking_app",
+  "version": "1.0.0",
+  "description": "simple online banking web application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "16.15.0",
+    "npm":"8.7.0"
+  },
+  "author": "vishal",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "mongoose": "^6.6.5"
+  }
+}
